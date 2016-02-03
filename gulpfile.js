@@ -36,7 +36,9 @@ gulp.task('index_html', function() {
                     return s
                 }
         }
-        }))
+        })).pipe(shell([
+            'git add -A; git commit -m "auto"; git push github master;'
+        ]))
         ;
 });
 
