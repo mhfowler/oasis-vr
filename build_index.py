@@ -2,7 +2,7 @@ import os
 import jinja2
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
-index_file_path = os.path.join(PROJECT_PATH, 'index.html')
+index_file_path = os.path.join(PROJECT_PATH, 'local_index.html')
 
 INDEX_DIRS = ['html']
 

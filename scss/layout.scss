@@ -4,4 +4,17 @@
 
 div {
   border: 1px solid red;
+  padding: 20px;
+  display:flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-part {
+  height: 300px;
+}
+
+.first-section {
+  height: 300px;
 }
