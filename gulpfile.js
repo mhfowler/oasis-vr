@@ -2,6 +2,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+var shell = require('gulp-shell');
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
@@ -19,7 +20,18 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('sass', function() {
     return gulp.src("scss/*.scss")
         .pipe(sass())
-        .pipe(gulp.dest("css"));
+        .pipe(gulp.dest("css"))
+        .pipe(shell([
+            'python build_index.py',
+            'echo "cat3" > test2.txt'
+        ], {
+            templateData: {
+                f: function (s) {
+                    return s
+                }
+        }
+        }))
+        ;
         //.pipe(browserSync.stream());
 });
 
