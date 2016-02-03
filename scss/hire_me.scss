@@ -71,25 +71,37 @@
 .page6 {
   display: flex;
     margin-top: 20px;
-  height: 600px;
   border: 1px solid red;
   flex-flow: column;
   justify-content: flex-end;
 }
 
 .page6:hover {
-  background-color:lightblue;
-  color:black;
+  //background-color:lightblue;
+  //color:black;
 }
 
 .text-wrapper {
   align-items:center;
   justify-content:center;
   display:flex;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   text-decoration:none;
   padding: 0px 30px;
 }
+
+.form-wrapper {
+  margin:auto;
+  margin-bottom:100px;
+  width:500px;
+  max-width:80%;
+
+}
+
+.form-wrapper h2 {
+    display:none;
+}
+
 
 a > div.text-wrapper > p {
   text-decoration: none!important;
@@ -133,4 +145,14 @@ a:visited {
   width:160px;
   height: 250px;
   border-radius: 100% 0 0 0;
+}
+
+
+.call-to-action {
+  //font-weight:bold;
+  text-decoration:none;
+  font-size: 20px;
+  max-width: 600px;
+  margin-top:80px;
+  font-family: 'Times New Roman';
 }
