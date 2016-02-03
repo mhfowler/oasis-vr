@@ -14,7 +14,7 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("scss/*.scss", ['sass']);
     //gulp.watch("html/*.html", ['index_html']);
     //gulp.watch(["html/*.html","css/*.css"]).on('change', browserSync.reload);
-    gulp.watch(["html/*.html","css/*.css"]).on('change', function(file) {
+    gulp.watch(["local_index.html", "html/*.html","css/*.css"]).on('change', function(file) {
         console.log('++ index_html');
         gulp.start('index_html');
         browserSync.reload();
