@@ -13,7 +13,15 @@ gulp.task('serve', ['sass'], function() {
 
     gulp.watch("scss/*.scss", ['sass']);
     //gulp.watch("html/*.html", ['index_html']);
-    gulp.watch(["html/*.html","css/*.css"], ['index_html']).on('change', browserSync.reload);
+    gulp.watch(["html/*.html","css/*.css"]).on('change', browserSync.reload);
+    gulp.watch(["html/*.html","css/*.css"]).on('change', function(file) {
+        console.log('++ rebuilding local_index.html');
+        gulp.start('index_html');
+        //shell.task([
+        //    'python build_index.py',
+        //    'echo "cat7" > test2.txt'
+        //]);
+    });
 });
 
 // Compile sass into CSS & auto-inject into browsers
@@ -26,10 +34,10 @@ gulp.task('sass', function() {
 
 // rebuild index.html
 gulp.task('index_html', function() {
-    return gulp.src("html/*.html")
+    return gulp.src('')
         .pipe(shell([
             'python build_index.py',
-            'echo "cat4" > test2.txt'
+            'echo "cat13" > test2.txt'
         ], {
             templateData: {
                 f: function (s) {
