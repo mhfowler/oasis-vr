@@ -36,7 +36,7 @@ gulp.task('sass', function() {
 // rebuild index.html
 gulp.task('index_html', function() {
     console.log('++ index_html');
-    return gulp.src('html/*.html')
+    return gulp.src('')
         .pipe(shell([
             'python build_index.py',
             'echo "cat13" > test2.txt'
