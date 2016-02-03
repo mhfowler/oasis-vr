@@ -15,13 +15,9 @@ gulp.task('serve', ['sass'], function() {
     //gulp.watch("html/*.html", ['index_html']);
     //gulp.watch(["html/*.html","css/*.css"]).on('change', browserSync.reload);
     gulp.watch(["html/*.html","css/*.css"]).on('change', function(file) {
-        console.log('++ rebuilding local_index.html');
+        console.log('++ index_html');
         gulp.start('index_html');
         browserSync.reload();
-        //shell.task([
-        //    'python build_index.py',
-        //    'echo "cat7" > test2.txt'
-        //]);
     });
 });
 
@@ -35,7 +31,7 @@ gulp.task('sass', function() {
 
 // rebuild index.html
 gulp.task('index_html', function() {
-    console.log('++ index_html');
+    console.log('++ rebuilding local_index.html');
     return gulp.src('')
         .pipe(shell([
             'python build_index.py',
