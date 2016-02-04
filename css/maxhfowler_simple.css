@@ -28,7 +28,8 @@ body, html {
       border-right: 1px solid gray; } }
 
 .page-wrapper {
-  padding: 10px; }
+  padding: 10px;
+  padding-bottom: 50px; }
 
 .site-footer {
   top: calc(100vh - 40px);
