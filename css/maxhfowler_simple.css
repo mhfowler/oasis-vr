@@ -40,7 +40,9 @@ body, html {
   width: 100%;
   position: fixed;
   left: 0px;
-  bottom: 0px; }
+  bottom: 0px;
+  display: flex;
+  align-items: center; }
   .site-footer .footer-text-wrapper {
     display: block;
     margin-left: 10px; }
