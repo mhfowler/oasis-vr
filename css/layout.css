@@ -16,6 +16,10 @@ div {
   display: block;
   align-items: initial;
   justify-content: left; }
+  .third-section:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .left-column {
   float: left;

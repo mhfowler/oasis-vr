@@ -1,4 +1,11 @@
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 div {
   border: 1px solid red;
@@ -21,16 +28,10 @@ div {
   display:block;
   align-items: initial;
   justify-content: left;
+   @include clearfix;
 }
 .left-column {
   float:left;
   width: 100px;
 }
 
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
