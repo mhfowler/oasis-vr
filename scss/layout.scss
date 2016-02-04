@@ -67,7 +67,7 @@ div {
 }
 
 .sixth-section {
-  display:inline;
+  display:block;
   @include clearfix;
   .one-column {
     //width: 200px;
