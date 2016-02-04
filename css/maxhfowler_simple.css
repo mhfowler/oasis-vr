@@ -4,4 +4,5 @@ a {
 .profile-img {
   background: url("/static/max.jpg");
   width: 200px;
+  height: 300px;
   background-size: 100% 100%; }
