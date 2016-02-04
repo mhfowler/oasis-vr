@@ -71,7 +71,7 @@
 .page6 {
     display: flex;
   flex-flow: row;
-  justify-content:flex-start;
+  justify-content:fl;
   margin-top: 30px;
   height:max-content;
   margin-bottom: 60px;
@@ -79,13 +79,14 @@
 
 .e-wrapper {
   display:block;
+  display: flex;
+  flex-flow: column;
   //margin-right:50px;
   width:260px;
   margin-right:20px;
 }
 
 .text-wrapper {
-  float:left;
   height: 750px;
   width: 100%;
   margin-right: 40px;
