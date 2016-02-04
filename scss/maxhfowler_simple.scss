@@ -40,6 +40,7 @@ body {
   min-height: calc(100vh - 40px);
   box-sizing: border-box;
     max-width: 500px;
+  flex: 1;
 }
 .site-footer, {
   height: 40px;
