@@ -16,4 +16,5 @@ a {
   margin-top: 40px; }
 
 .scroll-down {
-  position: absolute; }
+  position: absolute;
+  top: 100%; }
