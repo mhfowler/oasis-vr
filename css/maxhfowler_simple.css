@@ -21,7 +21,8 @@ a {
 
 body, html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  max-width: 700px; }
 
 .page-wrapper {
   padding: 10px;
