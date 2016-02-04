@@ -87,6 +87,10 @@ div {
   .one-column {
     align-items: flex-start;
   }
+  @media screen and (max-width: 600px) {
+    width: 100px;
+    float: none;
+  }
 }
 
 
