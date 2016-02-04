@@ -16,7 +16,6 @@ div {
 
 .flex-section {
   width: 100%;
-  float: left;
   height: 400px;
   display: flex;
   align-items: flex-start;
