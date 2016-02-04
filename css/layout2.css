@@ -18,12 +18,11 @@ div {
   float: left;
   height: 400px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center; }
   .flex-section:after {
     content: "";
     display: table;
     clear: both; }
   .flex-section .floater {
-    float: left;
     min-width: 200px; }

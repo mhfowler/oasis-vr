@@ -31,13 +31,12 @@ div {
   float:left;
   height: 400px;
   display:flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
   @include clearfix;
 
   .floater {
-    float:left;
     min-width:200px;
   }
 }
