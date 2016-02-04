@@ -45,6 +45,10 @@ div {
 
 .one-column {
   float: left; }
+  .one-column:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .an-image {
   display: block;

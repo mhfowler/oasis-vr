@@ -51,6 +51,7 @@ div {
 
 .one-column {
   float:left;
+  @include clearfix;
 }
 
 .an-image {
