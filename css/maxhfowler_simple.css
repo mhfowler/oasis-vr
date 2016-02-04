@@ -38,4 +38,5 @@ body, html {
   background-color: white;
   height: 40px;
   width: 100%;
-  padding-top: 14px; }
+  display: flex;
+  justify-content: center; }
