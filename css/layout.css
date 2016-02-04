@@ -81,4 +81,5 @@ div {
     align-items: flex-start; }
   @media screen and (max-width: 600px) {
     .seventh-section {
-      width: 600px; } }
+      width: 600px;
+      background-color: lightblue; } }
