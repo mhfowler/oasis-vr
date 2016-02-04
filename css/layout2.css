@@ -3,6 +3,13 @@ div {
   padding: 20px; }
 
 .header-part {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.first-section {
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center; }
