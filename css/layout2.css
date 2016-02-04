@@ -24,4 +24,5 @@ div {
     display: table;
     clear: both; }
   .flex-section .floater {
-    float: left; }
+    float: left;
+    width: 200px; }
