@@ -1,2 +1,5 @@
 a {
   color: black; }
+
+.profile-img {
+  background: url("/static/max.jpg"); }
