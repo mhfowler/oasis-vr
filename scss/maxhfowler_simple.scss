@@ -45,16 +45,15 @@ body, html {
   padding: 10px;
 }
 .site-footer, {
-  position: absolute;
   top: calc(100vh - 40px);
   border-top: 1px solid gray;
   z-index: 1;
   background-color:white;
   height: 40px;
   width: 100%;
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;
+  position:fixed;
+   left:0px;
+   bottom:0px;
   .footer-text-wrapper {
     display: block;
     margin-left: 10px;
