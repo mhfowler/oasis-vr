@@ -62,6 +62,10 @@ div {
 
 .sixth-section {
   display: inline; }
+  .sixth-section:after {
+    content: "";
+    display: table;
+    clear: both; }
   .sixth-section .one-column {
     align-items: flex-start;
     width: 200px; }

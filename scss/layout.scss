@@ -68,6 +68,7 @@ div {
 
 .sixth-section {
   display:inline;
+  @include clearfix;
   .one-column {
     //width: 200px;
     align-items: flex-start;
