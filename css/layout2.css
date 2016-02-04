@@ -15,7 +15,7 @@ div {
   justify-content: center; }
 
 .flex-section {
-  width: 100%;
+  width: calc(100% - 40px);
   height: 400px; }
   .flex-section:after {
     content: "";
