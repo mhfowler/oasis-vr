@@ -48,3 +48,6 @@ body, html {
   .site-footer .footer-text-wrapper {
     display: block;
     margin-left: 10px; }
+
+.project-wrapper {
+  margin-top: 5px; }
