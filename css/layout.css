@@ -44,7 +44,7 @@ div {
     clear: both; }
 
 .one-column {
-  width: max-content;
+  width: 42px;
   float: left;
   display: block; }
   .one-column:after {
