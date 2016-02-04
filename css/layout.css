@@ -63,4 +63,5 @@ div {
 .sixth-section .one-column {
   width: 200px; }
   .sixth-section .one-column .an-image2 {
-    width: 200px; }
+    width: 200px;
+    padding: 0; }
