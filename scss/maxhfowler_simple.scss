@@ -49,8 +49,11 @@ body, html {
   background-color:white;
   height: 40px;
   width: 100%;
-  text-align:center;
-  //display:flex;
-  //justify-content: center;
-  //align-items: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  .footer-text-wrapper {
+    text-align:center;
+    width: 100%;
+  }
 }
