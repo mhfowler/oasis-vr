@@ -26,7 +26,9 @@ a {
   max-width: 500px; }
 
 .site-footer {
-  height: 40px; }
+  height: 40px;
+  background: white;
+  border-top: 1px solid red; }
 
 .site-footer {
   background: white;
