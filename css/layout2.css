@@ -1,0 +1,86 @@
+div {
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center; }
+
+.header-part {
+  height: 300px; }
+
+.first-section {
+  height: 300px; }
+
+.third-section {
+  display: block;
+  align-items: initial;
+  justify-content: left; }
+  .third-section:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 100px; }
+
+.fourth-section {
+  display: block; }
+  .fourth-section:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.right-column {
+  float: right;
+  width: 100px; }
+
+.fifth-column {
+  display: block; }
+  .fifth-column:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.one-column {
+  float: left;
+  display: block; }
+  .one-column:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.an-image {
+  display: block;
+  background: url("http://41.media.tumblr.com/597ed6a10c5c51d223dfafb0be6ec595/tumblr_ngqz04Z52h1tdhimpo1_1280.png"); }
+
+.an-image2 {
+  float: left;
+  display: block; }
+
+.sixth-section {
+  display: block; }
+  .sixth-section:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .sixth-section .one-column {
+    align-items: flex-start;
+    width: 200px; }
+    .sixth-section .one-column .an-image2 {
+      width: 200px;
+      height: 50px;
+      padding: 0; }
+
+.seventh-section {
+  align-items: flex-start;
+  justify-content: space-between; }
+  .seventh-section .one-column {
+    align-items: flex-start; }
+  @media screen and (max-width: 600px) {
+    .seventh-section {
+      width: 600px; } }
+
+.eighth-section {
+  height: 200px; }
