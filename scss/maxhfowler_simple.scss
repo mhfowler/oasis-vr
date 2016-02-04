@@ -36,12 +36,12 @@ a {
 html, body {
   height: 100%;
 }
-.page-wrap {
+.page-wrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -142px;
 }
-.page-wrap:after {
+.page-wrapper:after {
   content: "";
   display: block;
 }
