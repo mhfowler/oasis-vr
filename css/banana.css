@@ -69,8 +69,7 @@
   margin-bottom: 60px; }
 
 .e-wrapper {
-  display: flex;
-  flex-flow: column;
+  display: block;
   width: 260px;
   margin-right: 20px; }
 
