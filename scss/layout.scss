@@ -82,8 +82,9 @@ div {
 }
 
 .seventh-section {
+  align-items: flex-start;
+  justify-content: space-between;
   .one-column {
     align-items: flex-start;
-    justify-content: space-between;
   }
 }
