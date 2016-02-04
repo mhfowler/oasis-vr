@@ -16,9 +16,7 @@ div {
 
 .flex-section {
   width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center; }
+  height: 400px; }
   .flex-section:after {
     content: "";
     display: table;
