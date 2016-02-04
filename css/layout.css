@@ -81,5 +81,4 @@ div {
     align-items: flex-start; }
   @media screen and (max-width: 600px) {
     .seventh-section {
-      width: 100px;
-      float: none; } }
+      width: 600px; } }
