@@ -43,3 +43,8 @@ div {
   float:right;
   width: 100px;
 }
+
+.one-column {
+  display:block;
+  @include clearfix;
+}

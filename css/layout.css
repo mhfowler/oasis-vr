@@ -35,3 +35,10 @@ div {
 .right-column {
   float: right;
   width: 100px; }
+
+.one-column {
+  display: block; }
+  .one-column:after {
+    content: "";
+    display: table;
+    clear: both; }
