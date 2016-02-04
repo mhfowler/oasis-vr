@@ -82,6 +82,7 @@
   justify-content: space-between; }
 
 .faces-img {
+  border: 1px solid red;
   height: 450px;
   display: flex;
   align-self: center;
