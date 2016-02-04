@@ -51,6 +51,7 @@ div {
 
 .one-column {
   float:left;
+  display:block;
   @include clearfix;
 }
 
