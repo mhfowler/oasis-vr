@@ -18,7 +18,6 @@ div {
   width: 100%;
   height: 400px;
   display: flex;
-  align-items: flex-start;
   justify-content: center; }
   .flex-section:after {
     content: "";
