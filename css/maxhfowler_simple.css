@@ -21,7 +21,8 @@ a {
 
 body {
   display: flex;
-  flex-flow: column; }
+  flex-flow: column;
+  min-height: 100vh; }
 
 .page-wrapper {
   padding: 10px;
