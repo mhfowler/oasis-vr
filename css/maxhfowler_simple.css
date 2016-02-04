@@ -16,7 +16,7 @@ a {
   margin-top: 40px; }
 
 .list-of-projects {
-  margin-top: 100px; }
+  margin-top: 20px; }
 
 .projects-list-title {
   margin-top: 30px; }
@@ -30,14 +30,15 @@ html, body {
 .page-wrapper {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px; }
+  margin-bottom: -20px; }
 
 .page-wrapper:after {
   content: "";
   display: block; }
 
 .site-footer, .page-wrap:after {
-  height: 142px; }
+  height: 20px; }
 
 .site-footer {
-  background: orange; }
+  background: white;
+  z-index: 1; }

@@ -22,7 +22,7 @@ a {
 }
 
 .list-of-projects {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .projects-list-title {
@@ -36,18 +36,22 @@ a {
 html, body {
   height: 100%;
 }
+
+$footer-height: 20px;
+
 .page-wrapper {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px;
+  margin-bottom: -$footer-height;
 }
 .page-wrapper:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 142px;
+  height: $footer-height;
 }
 .site-footer {
-  background: orange;
+  background: white;
+  z-index:1;
 }
