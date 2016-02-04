@@ -50,6 +50,7 @@ div {
 }
 
 .one-column {
+  padding:0;
   float:left;
   display:block;
   @include clearfix;
