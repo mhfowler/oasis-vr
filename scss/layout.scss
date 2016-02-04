@@ -44,7 +44,11 @@ div {
   width: 100px;
 }
 
-.one-column {
+.fifth-column {
   display:block;
   @include clearfix;
+}
+
+.one-column {
+  float:left;
 }
