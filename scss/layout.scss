@@ -27,9 +27,10 @@ div {
   width: 100px;
 }
 
-.clearfix:after {
-   content: " ";
-   display: block;
-   height: 0;
-   clear: both;
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
