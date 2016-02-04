@@ -32,4 +32,5 @@ a {
   border-top: 1px solid red;
   z-index: 1;
   background-color: white;
-  height: 40px; }
+  height: 40px;
+  width: 100%; }
