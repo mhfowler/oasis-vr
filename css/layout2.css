@@ -25,4 +25,5 @@ div {
     display: table;
     clear: both; }
   .flex-section .floater {
+    float: left;
     min-width: 200px; }
