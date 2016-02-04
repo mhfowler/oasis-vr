@@ -25,11 +25,7 @@ a {
   box-sizing: border-box;
   max-width: 500px; }
 
-.page-wrapper:after {
-  content: "";
-  display: block; }
-
-.site-footer, .page-wrap:after {
+.site-footer {
   height: 40px; }
 
 .site-footer {
