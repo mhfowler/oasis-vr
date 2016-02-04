@@ -22,7 +22,6 @@ a {
 body, html {
   margin: 0;
   padding: 0;
-  height: 120%;
   max-width: 575px; }
   @media screen and (min-width: 575px) {
     body, html {
