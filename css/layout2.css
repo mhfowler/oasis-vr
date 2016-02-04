@@ -19,5 +19,9 @@ div {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .flex-section:after {
+    content: "";
+    display: table;
+    clear: both; }
   .flex-section .floater {
     float: left; }
