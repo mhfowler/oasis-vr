@@ -81,3 +81,6 @@ div {
   @media screen and (max-width: 600px) {
     .seventh-section {
       width: 600px; } }
+
+.eight-section {
+  height: 200px; }
