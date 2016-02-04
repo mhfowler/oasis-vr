@@ -63,13 +63,12 @@
 .page6 {
   display: flex;
   flex-flow: row;
-  justify-content: fl;
+  justify-content: space-between;
   margin-top: 30px;
   height: max-content;
   margin-bottom: 60px; }
 
 .e-wrapper {
-  display: block;
   display: flex;
   flex-flow: column;
   width: 260px;
