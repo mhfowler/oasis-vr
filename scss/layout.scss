@@ -35,3 +35,11 @@ div {
   width: 100px;
 }
 
+.fourth-section {
+  display:block;
+  @include clearfix;
+}
+.right-column {
+  float:right;
+  width: 100px;
+}

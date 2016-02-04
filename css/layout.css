@@ -24,3 +24,14 @@ div {
 .left-column {
   float: left;
   width: 100px; }
+
+.fourth-section {
+  display: block; }
+  .fourth-section:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.right-column {
+  float: right;
+  width: 100px; }
