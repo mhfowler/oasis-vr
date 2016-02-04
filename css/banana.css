@@ -70,12 +70,14 @@
   width: 100%; }
 
 .e-wrapper {
+  border: 1px solid red;
   display: flex;
   flex-flow: column;
   width: 260px;
   margin-right: 20px; }
 
 .text-wrapper {
+  border: 1px solid blue;
   height: 750px;
   width: 100%;
   margin-right: 40px;
