@@ -1,7 +1,5 @@
 
 
-
-
 div {
   border: 1px solid red;
   padding: 20px;
@@ -17,4 +15,12 @@ div {
 
 .first-section {
   height: 300px;
+}
+
+.third-section {
+  display:block;
+}
+.left-column {
+  float:left;
+  width: 100px;
 }

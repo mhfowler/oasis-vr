@@ -11,3 +11,10 @@ div {
 
 .first-section {
   height: 300px; }
+
+.third-section {
+  display: block; }
+
+.left-column {
+  float: left;
+  width: 100px; }
