@@ -11,7 +11,6 @@ body {
   height: 100vh;
   padding-left: 70px;
   padding-right: 40px;
-  background: url("/static/white_feet.jpg");
   background-size: 100% 100%; }
   @media screen and (max-width: 700px) {
     .top-section {
