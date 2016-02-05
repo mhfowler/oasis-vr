@@ -10,7 +10,7 @@ body {
   height: calc(100vh - 140px);
   display: flex;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-right: 40px; }
 
 a {
