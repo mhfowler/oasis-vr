@@ -24,7 +24,7 @@ a {
 
 .profile-img-wrapper {
   padding-left: 30px;
-  width: 100%; }
+  width: calc(100% - 30px); }
 
 .follow-text {
   margin-top: 40px; }
