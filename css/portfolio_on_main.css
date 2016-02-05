@@ -41,7 +41,7 @@ footer {
   margin-bottom: 40px;
   font-family: 'PT Serif', serif; }
 
-a.project-title {
+.project-title {
   color: black; }
-  a.project-title:hover {
+  .project-title:hover {
     text-decoration: none; }
