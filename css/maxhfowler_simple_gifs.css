@@ -25,7 +25,7 @@ a {
 .profile-img-wrapper {
   padding-left: 50px;
   width: calc(100% - 50px);
-  max-width: 60px; }
+  max-width: 400px; }
 
 .img-block {
   margin-top: 20px;
