@@ -15,6 +15,9 @@ a {
   height: 100px;
   background-size: 100% 100%; }
 
+.moving-gif-img {
+  background: url("http://38.media.tumblr.com/0ab45005c4bec2dabba49c8f58f189dd/tumblr_n56ti3Sl4O1qzhwpro1_500.gif"); }
+
 .follow-text {
   margin-top: 40px; }
 
