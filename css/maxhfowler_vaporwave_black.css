@@ -11,8 +11,7 @@ body {
   padding-left: 0px; }
 
 .base-wrapper {
-  width: 600px;
-  margin: auto;
+  width: 100%;
   /*min-height:100%;*/ }
 
 .page-wrapper {
