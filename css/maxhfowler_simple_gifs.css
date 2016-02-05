@@ -23,8 +23,8 @@ a {
   background-size: 100% 100%; }
 
 .profile-img-wrapper {
-  padding-left: 30px;
-  width: calc(100% - 30px); }
+  padding-left: 50px;
+  width: calc(100% - 50px); }
 
 .follow-text {
   margin-top: 40px; }
