@@ -190,7 +190,7 @@ a.funky {
 .featured-projects-wrapper {
   border-top: 1px solid gray;
   margin-top: 35px;
-  width: 100%;
+  width: calc(100% - 20px);
   padding-left: 20px; }
 
 a.inline-link {
