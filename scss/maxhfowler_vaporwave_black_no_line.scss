@@ -25,9 +25,13 @@ body {
 .base-wrapper {
     width:100%;
   max-width: 650px;
-  border-right: 1px solid gray;
   padding-bottom: 100px;
     /*min-height:100%;*/
+
+
+  @media screen and (min-width: 575px) {
+      border-right: 1px solid gray;
+  }
 }
 
 .page-wrapper {
