@@ -1,0 +1,244 @@
+body {
+  margin-top: 0px;
+  padding-bottom: 45px;
+  font-size: 26px;
+  margin-left: 0px; }
+
+.footer-wrapper {
+  border-top: 1px solid gray;
+  width: 100%;
+  padding-top: 20px;
+  /*padding-left: 140px;*/
+  padding-left: 0px; }
+
+.base-wrapper {
+  width: 100%;
+  max-width: 650px;
+  border-right: 1px solid gray;
+  padding-bottom: 100px;
+  /*min-height:100%;*/ }
+
+.page-wrapper {
+  /*min-height:600px;*/ }
+
+.nav-link {
+  float: left;
+  /*font-weight:bold;*/
+  /*color:black;*/
+  /*text-decoration:none;*/
+  /*border: 1px solid black;*/
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 3px;
+  /*height:25px;*/
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/ }
+
+.nav-link:hover {
+  /*border:1px solid black;*/
+  /*text-decoration: line-through;*/ }
+
+.intro-wrapper {
+  width: 91%;
+  margin-top: 30px; }
+
+.top-nav {
+  width: 100%;
+  padding-top: 22px; }
+  .top-nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.above-nav {
+  padding-top: 30px;
+  width: 100%;
+  height: 45px; }
+
+.mhfowler-link {
+  float: left; }
+
+.play-button {
+  float: left;
+  margin-left: 20px;
+  height: 20px; }
+
+.page-wrapper {
+  /*margin-top:30px;*/ }
+
+.featured-title {
+  /*font-style:italic;*/
+  margin-top: 30px; }
+
+.featured-project {
+  margin-top: 30px; }
+
+/* work */
+.work-item {
+  margin-top: 30px; }
+
+.prof-pic {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 30px; }
+
+.intro-top {
+  width: 100%; }
+  .intro-top:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+p {
+  max-width: 600px; }
+
+div.featured-project {
+  max-width: 600px; }
+
+@media (max-width: 600px) {
+  p {
+    width: 100%; }
+  div.intro-bottom {
+    width: 100%; }
+  .page-wrapper {
+    width: 100%; }
+  body {
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/ }
+  a.social-link {
+    /*float:right;*/
+    /*margin-right:40px;*/
+    /*margin-left:40px;*/
+    /*margin-left:75%;*/ } }
+
+a {
+  color: black; }
+
+a.nav-link {
+  /*color:black;*/ }
+
+body {
+  font-size: 18px; }
+
+.funky-button {
+  cursor: pointer;
+  z-index: 20; }
+
+/* funky */
+body.funky {
+  background-color: black;
+  color: white;
+  background-image: url("/static/collage.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  /*background-repeat: no-repeat;*/ }
+
+a.funky {
+  color: red; }
+
+/* secret images */
+.secret {
+  display: none; }
+
+.secret.funky {
+  /*display:block;*/ }
+
+.base-wrapper.funky {
+  /*background-image:url("/static/collage.png");*/
+  /*background-size: 100% 100%;*/ }
+
+.dark-lord-img {
+  position: absolute;
+  z-index: -1; }
+
+.invisible {
+  display: none; }
+
+.seethrough {
+  opacity: 0; }
+
+.not-plants-link {
+  text-decoration: none; }
+
+.social-link {
+  margin-right: 30px;
+  text-decoration: none;
+  /*margin-left: 75%;*/ }
+
+.social-link:hover {
+  cursor: pointer; }
+
+.footer-below {
+  margin-top: 30px; }
+
+.portfolio-wrapper {
+  padding-left: 20px;
+  max-width: 600px;
+  width: 100%;
+  padding-right: 20px; }
+
+.featured-projects-wrapper {
+  border-top: 1px solid gray;
+  margin-top: 35px;
+  width: calc(100% - 40px);
+  padding-left: 20px;
+  padding-right: 20px; }
+
+a.inline-link {
+  color: black; }
+
+div.project-description {
+  margin-left: 40px;
+  max-width: 500px;
+  margin-top: 8px; }
+
+.page-wrapper {
+  padding: 10px;
+  padding-bottom: 100px;
+  padding-left: 0px; }
+
+.site-footer {
+  border-top: 1px solid gray;
+  z-index: 1;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center; }
+  .site-footer .footer-text-wrapper {
+    display: block;
+    margin-left: 10px; }
+
+.project-wrapper {
+  margin-top: 30px; }
+
+.project-description {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 15px;
+  max-width: 450px; }
+
+.list-of-projects {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.projects-list-title {
+  margin-top: 40px; }
+
+.top-section {
+  padding-left: 20px; }
+
+.intro-bottom {
+  width: 90%; }
