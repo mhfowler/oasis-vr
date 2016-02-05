@@ -187,7 +187,6 @@ a.funky {
   padding-right: 20px; }
 
 .featured-projects-wrapper {
-  border-top: 1px solid gray;
   margin-top: 35px;
   width: calc(100% - 40px);
   padding-left: 20px;
