@@ -19,3 +19,16 @@ footer {
 
 .navbar {
   display: none; }
+
+.top-section {
+  font-size: 24px;
+  width: calc(100% - 70px);
+  max-width: 600px;
+  height: 100vh;
+  padding-left: 70px;
+  padding-right: 40px;
+  background-size: 100% 100%;
+  font-family: 'PT Serif', serif; }
+  @media screen and (max-width: 700px) {
+    .top-section {
+      padding-left: 30px; } }
