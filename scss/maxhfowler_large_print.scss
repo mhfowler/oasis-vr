@@ -13,9 +13,10 @@ body {
     font-size: 24px;
     width: calc(100% - 70px);
     max-width: 600px;
-    height: calc(100vh - 240px);
+    //height: calc(100vh - 240px);
     //display:flex;
     //align-items: center;
+    height: 100vh;
     padding-top: 300px;
     padding-left: 50px;
     padding-right: 40px;
