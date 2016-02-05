@@ -40,3 +40,6 @@ footer {
   border-bottom: 1px;
   margin-bottom: 40px;
   font-family: 'PT Serif', serif; }
+
+a.project-title {
+  color: black; }
