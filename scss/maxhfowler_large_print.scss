@@ -14,8 +14,9 @@ body {
     width: calc(100% - 70px);
     max-width: 600px;
     height: calc(100vh - 240px);
-    display:flex;
-    align-items: center;
+    //display:flex;
+    //align-items: center;
+    padding-top: 300px;
     padding-left: 50px;
     padding-right: 40px;
 }
