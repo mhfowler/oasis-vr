@@ -16,7 +16,10 @@ a {
 }
 
 .gif-img {
-  background: url('/static/static.png')
+  background: url('/static/static.png');
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
 }
 
 
