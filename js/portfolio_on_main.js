@@ -3,7 +3,7 @@ $(document).ready(function() {
   alert('hello');
 
   $(document).scroll(function() {
-    if ($(document).scrollTop() > 200) {
+    if ($(document).scrollTop() > 100) {
         $('.navbar').fadeIn();
     }
     else {
