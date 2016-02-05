@@ -9,6 +9,9 @@ a {
   margin-left: 77px;
   margin-top: 40px; }
 
+.gif-img {
+  background: url("/static/static.png"); }
+
 .follow-text {
   margin-top: 40px; }
 
