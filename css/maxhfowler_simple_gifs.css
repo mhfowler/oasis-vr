@@ -26,6 +26,14 @@ a {
   padding-left: 50px;
   width: calc(80% - 50px); }
 
+.img-block {
+  margin-top: 20px;
+  width: 100%; }
+  .img-block:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 .follow-text {
   margin-top: 40px; }
 

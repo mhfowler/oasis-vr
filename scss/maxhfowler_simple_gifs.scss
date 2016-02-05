@@ -1,4 +1,10 @@
-
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 a {
   color:black;
@@ -33,6 +39,12 @@ a {
 .profile-img-wrapper {
   padding-left: 50px;
   width: calc(80% - 50px);
+}
+
+.img-block {
+  margin-top: 20px;
+  width: 100%;
+  @include clearfix;
 }
 
 
