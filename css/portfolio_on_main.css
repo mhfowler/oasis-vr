@@ -16,3 +16,6 @@ footer {
 
 .btn-primary {
   margin-top: 20px; }
+
+.navbar {
+  display: none; }
