@@ -11,6 +11,9 @@ body {
   height: 100vh;
   padding-left: 70px;
   padding-right: 40px; }
+  @media screen and (max-width: 400px) {
+    .top-section {
+      padding-left: 30px; } }
 
 .top-text {
   padding-top: 200px; }
