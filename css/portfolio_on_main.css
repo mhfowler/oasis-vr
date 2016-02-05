@@ -43,3 +43,5 @@ footer {
 
 a.project-title {
   color: black; }
+  a.project-title:hover {
+    text-decoration: none; }
