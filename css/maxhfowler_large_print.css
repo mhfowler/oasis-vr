@@ -7,7 +7,7 @@ body {
 .top-section {
   font-size: 24px;
   width: 100%;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 100px);
   display: flex;
   align-items: center;
   padding-left: 30px; }
