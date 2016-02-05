@@ -16,6 +16,7 @@ body {
   max-width: 600px;
   border-right: 1px solid gray;
   padding-bottom: 100px;
+  padding-right: 20px;
   /*min-height:100%;*/ }
 
 .page-wrapper {
