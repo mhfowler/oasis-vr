@@ -22,6 +22,9 @@ footer {
   padding-bottom: 10px;
   padding-top: 5px; }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  color: blue; }
+
 .navbar-inverse {
   background-color: white;
   color: black;
