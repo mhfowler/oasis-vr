@@ -17,6 +17,9 @@ footer {
 .btn-primary {
   margin-top: 20px; }
 
+.navbar {
+  padding-left: 10px; }
+
 .text-section {
   font-size: 24px;
   width: calc(100% - 70px);
