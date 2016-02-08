@@ -37,7 +37,7 @@ footer {
       padding-top: 20vh; } }
 
 .projects-title {
-  border-bottom: 1px;
+  border-bottom: 1px solid gray;
   margin-bottom: 40px; }
 
 a.project-title {
