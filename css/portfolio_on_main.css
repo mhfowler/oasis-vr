@@ -101,3 +101,6 @@ a.project-title {
 .quick-writeup {
   padding-left: 35px;
   color: gray; }
+
+.projects-wrapper {
+  max-width: 600px; }
