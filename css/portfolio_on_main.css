@@ -104,6 +104,8 @@ a.project-title {
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #333; }
+  .navbar-inverse .navbar-toggle .icon-bar:hover {
+    background-color: white; }
 
 .projects-wrapper {
   margin-left: 10px; }

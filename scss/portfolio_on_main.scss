@@ -142,6 +142,9 @@ a.project-title {
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #333;
+    &:hover {
+        background-color:white;
+    }
 }
 
 .projects-wrapper {
