@@ -51,5 +51,6 @@ a.project-title {
     text-decoration: none; }
 
 .quick-link {
+  margin-top: 10px;
   padding-left: 40px;
   color: white; }
