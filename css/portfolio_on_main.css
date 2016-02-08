@@ -131,3 +131,5 @@ a {
   margin-right: 15px;
   border: 1px solid blue;
   padding: 10px; }
+  .project-row:hover {
+    border-color: green; }
