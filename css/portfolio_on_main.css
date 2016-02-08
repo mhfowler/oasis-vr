@@ -17,11 +17,13 @@ footer {
 .btn-primary {
   margin-top: 20px; }
 
-.navbar-header {
-  padding-left: 20px;
-  padding-bottom: 10px;
+.navbar {
   padding-top: 5px;
   background: white; }
+
+.navbar-header {
+  padding-left: 20px;
+  padding-bottom: 10px; }
   @media screen and (max-width: 700px) {
     .navbar-header {
       padding-left: 0px; } }
