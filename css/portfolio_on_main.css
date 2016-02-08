@@ -38,6 +38,7 @@ footer {
 
 .projects-title {
   border-bottom: 1px solid gray;
+  padding-bottom: 10px;
   margin-bottom: 40px; }
 
 a.project-title {
