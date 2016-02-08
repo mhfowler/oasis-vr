@@ -64,11 +64,11 @@ a.project-title {
 
 .quick-link {
   margin-top: 10px;
-  padding-left: 40px;
   color: white; }
   .quick-link:hover {
     color: white; }
 
 .quick-link-wrapper {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  padding-left: 40px; }
