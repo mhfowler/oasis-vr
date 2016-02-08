@@ -68,13 +68,10 @@ footer {
     .dark-section {
       padding-left: 30px; } }
 
-a.project-title {
-  color: black; }
-  a.project-title:hover {
-    text-decoration: none; }
-
 .project-title {
   color: black; }
+  .project-title:hover {
+    text-decoration: none; }
 
 a {
   color: black; }
