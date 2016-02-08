@@ -164,6 +164,6 @@ a.project-title {
     color:black;
 }
 
-.navlink:hover {
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color:black;
 }
