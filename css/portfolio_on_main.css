@@ -120,3 +120,6 @@ a.project-title {
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
   color: black; }
+
+.navlink:hover {
+  color: black; }
