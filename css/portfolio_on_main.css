@@ -50,6 +50,9 @@ a.project-title {
   a.project-title:hover {
     text-decoration: none; }
 
+.quick-links-header {
+  font-size: 24px; }
+
 .quick-link {
   margin-top: 10px;
   padding-left: 40px;
