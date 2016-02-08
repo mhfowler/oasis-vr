@@ -18,12 +18,12 @@ footer {
   margin-top: 20px; }
 
 .navbar {
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-bottom: 20px; }
 
 .navbar-inverse {
   background-color: white;
   color: black;
-  border-color: #080808;
   border-color: blue; }
 
 .text-section {
