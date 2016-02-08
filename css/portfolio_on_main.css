@@ -34,11 +34,8 @@ footer {
   padding-top: 200px; }
 
 .projects-title {
-  padding-left: 70px;
-  font-size: 24px;
   border-bottom: 1px;
-  margin-bottom: 40px;
-  font-family: 'PT Serif', serif; }
+  margin-bottom: 40px; }
 
 a.project-title {
   color: black; }
