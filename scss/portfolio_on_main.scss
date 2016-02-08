@@ -89,6 +89,9 @@ a.project-title {
     margin-top: 10px;
     padding-left: 40px;
     color:white;
+    &:hover {
+        color:white;
+    }
 }
 
 .quick-link-wrapper {
