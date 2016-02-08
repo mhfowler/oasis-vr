@@ -131,6 +131,8 @@ a {
   margin-right: 15px;
   border: 1px solid blue;
   padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 5px; }
   .project-row:hover {
     border-color: green; }
