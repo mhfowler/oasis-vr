@@ -134,3 +134,6 @@ a {
   margin-top: 5px; }
   .project-row:hover {
     border-color: green; }
+
+hr {
+  border: none; }
