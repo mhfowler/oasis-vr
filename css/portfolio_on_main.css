@@ -31,10 +31,8 @@ footer {
 
 .top-section {
   height: 95vh;
-  padding-top: 200px; }
-  @media screen and (max-width: 700px) {
-    .top-section {
-      padding-top: 100px; } }
+  padding-top: 200px;
+  padding-top: 20vh; }
 
 .projects-title {
   border-bottom: 1px;
