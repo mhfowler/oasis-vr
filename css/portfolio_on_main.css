@@ -45,6 +45,3 @@ a.project-title {
   color: black; }
   a.project-title:hover {
     text-decoration: none; }
-
-.navbar-inverse .navbar-nav > li > a.navlink {
-  color: white; }
