@@ -140,6 +140,10 @@ a.project-title {
     //color:white;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
 .projects-wrapper {
     margin-left: 10px;
     @media screen and (max-width: 700px) {

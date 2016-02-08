@@ -102,6 +102,9 @@ a.project-title {
   padding-left: 35px;
   color: gray; }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #333; }
+
 .projects-wrapper {
   margin-left: 10px; }
   @media screen and (max-width: 700px) {
