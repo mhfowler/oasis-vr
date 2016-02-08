@@ -99,8 +99,11 @@ footer {
     }
 }
 a {
-    text-decoration:line-through;
+    text-decoration:underline;
     color:black;
+    &:hover {
+        color:#333;
+    }
 }
 
 .quick-links-header {
