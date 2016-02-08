@@ -52,3 +52,5 @@ a.project-title {
 
 .quick-link {
   padding-left: 40px; }
+  .quick-link a {
+    color: white; }
