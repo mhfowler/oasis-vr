@@ -93,16 +93,16 @@ footer {
 
 
 .project-title {
-    color:black;
+    color:#333;
     &:hover {
         text-decoration:none;
+        color: #333;
     }
 }
 a {
     text-decoration:none;
     //color:darkblue;
     &:hover {
-        color: black;
         //color:#333;
     }
 }
