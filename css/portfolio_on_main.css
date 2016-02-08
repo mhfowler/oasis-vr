@@ -42,7 +42,8 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+  margin-bottom: 40px; }
 
 a.project-title {
   color: black; }
