@@ -106,7 +106,8 @@ a.project-title {
   background-color: #333; }
 
 .navbar-toggle:hover .icon-bar {
-  background-color: white; }
+  background-color: white;
+  border-color: white; }
 
 .projects-wrapper {
   margin-left: 10px; }
