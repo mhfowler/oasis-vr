@@ -21,7 +21,6 @@ footer {
   font-size: 24px;
   width: calc(100% - 70px);
   max-width: 600px;
-  height: 95vh;
   padding-left: 70px;
   padding-right: 40px;
   background-size: 100% 100%;
@@ -31,6 +30,7 @@ footer {
       padding-left: 30px; } }
 
 .top-section {
+  height: 95vh;
   padding-top: 200px; }
 
 .projects-title {
