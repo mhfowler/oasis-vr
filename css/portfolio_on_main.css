@@ -20,6 +20,10 @@ footer {
 .navbar {
   padding-left: 20px; }
 
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808; }
+
 .text-section {
   font-size: 24px;
   width: calc(100% - 70px);
