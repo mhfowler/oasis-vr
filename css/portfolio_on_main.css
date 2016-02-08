@@ -117,3 +117,6 @@ a.project-title {
 
 .navbar-brand:focus, .navbar-brand:hover {
   color: black; }
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: black; }
