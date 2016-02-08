@@ -103,4 +103,5 @@ a.project-title {
   color: gray; }
 
 .projects-wrapper {
-  max-width: 1000px; }
+  max-width: 1000px;
+  padding-left: 50px; }
