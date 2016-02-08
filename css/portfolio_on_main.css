@@ -50,3 +50,6 @@ a.project-title {
   color: black; }
   a.project-title:hover {
     text-decoration: none; }
+
+.quick-link {
+  padding-left: 30px; }
