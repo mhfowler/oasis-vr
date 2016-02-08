@@ -41,9 +41,12 @@ footer {
   color: #D6D6D6;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 70px;
   padding-right: 30px;
   margin-bottom: 40px; }
+  @media screen and (max-width: 700px) {
+    .dark-section {
+      padding-left: 30px; } }
 
 a.project-title {
   color: black; }
