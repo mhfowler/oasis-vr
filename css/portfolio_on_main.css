@@ -73,6 +73,9 @@ a.project-title {
   a.project-title:hover {
     text-decoration: none; }
 
+.project-title {
+  color: black; }
+
 .quick-links-header {
   font-size: 24px;
   margin-bottom: 20px; }
