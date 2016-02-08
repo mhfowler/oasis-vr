@@ -151,3 +151,6 @@ hr {
   @media screen and (max-width: 700px) {
     .footer-writeup {
       padding-left: 30px; } }
+
+.copyright-box {
+  margin-bottom: 100px; }
