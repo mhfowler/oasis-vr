@@ -3,10 +3,10 @@ $(document).ready(function() {
 
   $(document).scroll(function() {
     if ($(document).scrollTop() > 100) {
-        $('.navbar').fadeIn();
+        //$('.navbar').fadeIn();
     }
     else {
-      $('.navabr').hide();
+      //$('.navabr').hide();
     }
 })
 });

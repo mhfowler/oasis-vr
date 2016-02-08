@@ -17,9 +17,6 @@ footer {
 .btn-primary {
   margin-top: 20px; }
 
-.navbar {
-  display: none; }
-
 .top-section {
   font-size: 24px;
   width: calc(100% - 70px);
