@@ -221,4 +221,7 @@ hr {
     //background-size: 200px 200px;
     height: 200px;
     width: 100%;
+     @media screen and (min-width: 700px) {
+         background-position: 200px 0px;
+    }
 }
