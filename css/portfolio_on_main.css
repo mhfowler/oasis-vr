@@ -135,7 +135,7 @@ a {
   padding-bottom: 20px;
   margin-top: 5px; }
   .project-row:hover {
-    border-color: red;
+    border-color: black;
     cursor: pointer; }
 
 hr {
