@@ -255,6 +255,9 @@ $primary-color: transparent;
     }
     .center-link {
         margin-right: 100px;
+           @media screen and (max-width: 700px) {
+                margin-right: 65px;
+            }
     }
     .right-link {
         margin-right:0px;
