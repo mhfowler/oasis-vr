@@ -249,15 +249,15 @@ $primary-color: transparent;
     }
     .left-link {
         margin-right: 100px;
-            @media screen and (max-width: 700px) {
-                margin-right: 65px;
-            }
+        @media screen and (max-width: 700px) {
+            margin-right: 65px;
+        }
     }
     .center-link {
         margin-right: 100px;
-           @media screen and (max-width: 700px) {
-                margin-right: 65px;
-            }
+        @media screen and (max-width: 700px) {
+            margin-right: 65px;
+        }
     }
     .right-link {
         margin-right:0px;
@@ -303,16 +303,12 @@ div.top-text {
 
 .text-section {
     font-size: 24px;
-    //width: calc(100% - 70px);
     max-width: 700px;
-    //height: calc(100vh - 240px);
-    //display:flex;
-    //align-items: center;
     margin:auto;
     @media screen and (max-width: 700px) {
         padding-top: 60px;
+        font-size: 19px;
     }
-    //background: url('/static/white_feet.jpg');
     background-size: 100% 100%;
     font-family: 'PT Serif', serif;
     text-align:center;
