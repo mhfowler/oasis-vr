@@ -52,7 +52,7 @@ body, html {
     background: linear-gradient(360deg, transparent 30%, white 0), url("http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif"); } }
 
 .top-section {
-  animation: pulse 5s infinite;
+  animation: pulse 10s infinite;
   background: linear-gradient(135deg, transparent 30%, white 0), url("http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif");
   height: 400px;
   background-size: 100% 100%, 100% 100%;
