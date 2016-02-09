@@ -1,0 +1,277 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.author {
+    margin-top:20px;
+    color:gray;
+}
+
+.btn-primary {
+    margin-top:20px;
+
+}
+
+.navbar {
+    //font-family: 'PT Serif', serif;
+    //display:none;
+    //padding-bottom: 10px;
+    padding-top: 5px;
+    background: white;
+    @media screen and (max-width: 700px) {
+    }
+}
+
+
+.navbar-header {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    @media screen and (max-width: 700px) {
+        padding-bottom:5px;
+    }
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:blue;
+}
+
+.navbar-inverse {
+    //background-color: #0010ab;
+    background-color:white;
+    color:black;
+    //border-color: #080808;
+    border-color: blue;
+}
+
+.text-section {
+    font-size: 24px;
+    //width: calc(100% - 70px);
+    width: 100%;
+    max-width: 600px;
+    //height: calc(100vh - 240px);
+    //display:flex;
+    //align-items: center;
+    margin:auto;
+    @media screen and (max-width: 700px) {
+        padding-left:30px;
+    }
+    //background: url('/static/white_feet.jpg');
+    background-size: 100% 100%;
+    font-family: 'PT Serif', serif;
+    text-align:center;
+}
+
+
+
+
+.dark-section {
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    background-color: #333;
+    color: #D6D6D6;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    @media screen and (max-width: 700px) {
+        padding-left:30px;
+    }
+}
+
+
+.project-title {
+    color:#333;
+    &:hover {
+        text-decoration:none;
+        color: #333;
+    }
+}
+a {
+    text-decoration:none;
+    //color:darkblue;
+    &:hover {
+        //color:#333;
+    }
+}
+
+.quick-links-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.quick-links-footer {
+    font-size: 16px;
+    margin-top:30px;
+    margin-bottom:15px;
+    a {
+        color:white;
+        &:hover {
+            color:white;
+        }
+    }
+}
+
+.quick-link {
+    margin-top: 10px;
+
+    color:white;
+    &:hover {
+        color:white;
+    }
+}
+
+.quick-link-wrapper {
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+.quick-writeup {
+    padding-left: 35px;
+    color: gray;
+}
+
+.navbar-inverse .navbar-nav>li>a.navlink {
+    //color:white;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #9d9d9d;
+}
+.navbar-toggle:hover .icon-bar {
+    background-color: white;
+    border-color:white;
+}
+
+.projects-wrapper {
+    margin-left: 0px;
+    padding: 0px;
+    @media screen and (max-width: 700px) {
+        //margin-left:15px;
+    }
+}
+
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color:black;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color:black;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color:black;
+}
+
+.project-row {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid blue;
+
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &:hover {
+        border-color: black;
+        cursor: pointer;
+    }
+    margin-top: 5px;
+}
+
+hr {
+    border:none;
+}
+
+.footer-writeup {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    max-width: 600px;
+        @media screen and (max-width: 700px) {
+            padding-left: 20px;
+    }
+}
+
+.copyright-box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.gif-section {
+    //background: url('http://45.media.tumblr.com/672b17d13533345965a41712649554cb/tumblr_n4fg8nni5L1suvw3go1_1280.gif');
+    background: url('http://41.media.tumblr.com/365d530ac93a4bdbfcf155222bd3f683/tumblr_n24lol9kaH1rs1gaeo1_1280.png');
+    background-size: cover;
+    //background-size: 200px 200px;
+    background-position: 0px -60px;
+    height: 200px;
+    width: 100%;
+     @media screen and (min-width: 700px) {
+         background-position: 0px 200px;
+    }
+}
+
+.nav>li>a.navlink {
+    @media screen and (max-width: 700px) {
+        padding-left: 30px;
+    }
+}
+
+
+
+
+.top-section {
+    height: 95vh;
+    //padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30vh;
+    color: black;
+    @media screen and (max-width: 700px) {
+        padding-top: 20vh;
+    }
+}
+
+.top-links {
+    display:flex;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    .top-link {
+        font-size: 14px;
+        //color:#333;
+        color: white;
+        &:hover {
+            cursor:pointer;
+        }
+    }
+}
+
+
+
+$secondary-color: white;
+$primary-color: transparent;
+
+body {
+    background:
+            linear-gradient(45deg, $primary-color 30%, $secondary-color 0),
+            url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+  height: 100%;
+  background-size: 30px 30px;
+}
+
