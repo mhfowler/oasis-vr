@@ -21,7 +21,8 @@ body, html {
   width: 320px;
   margin: auto;
   margin-top: 60px;
-  text-align: left; }
+  text-align: left;
+  font-size: 14px; }
   @media screen and (max-width: 700px) {
     .top-links {
       width: 288px;
