@@ -9,7 +9,7 @@ $(document).ready(function() {
         console.log(background_string);
         top_section.css('background', background_string);
         grad_degree += 1;
-    }, 80);
+    }, 15);
 
 
 });
