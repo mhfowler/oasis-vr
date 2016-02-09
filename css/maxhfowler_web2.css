@@ -190,7 +190,7 @@ div.top-text {
   margin: auto; }
   @media screen and (max-width: 700px) {
     div.top-text {
-      max-width: 288;
+      width: 288;
       text-align: left; } }
 
 .text-section {
