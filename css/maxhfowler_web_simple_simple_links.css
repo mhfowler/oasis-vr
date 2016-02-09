@@ -35,6 +35,8 @@ body, html {
       cursor: pointer; }
   .top-links .right-link {
     margin-right: 0px; }
+  .top-links .link-section {
+    margin-bottom: 5px; }
 
 .top-section {
   background: linear-gradient(135deg, transparent 30%, white 0), lightgray;
