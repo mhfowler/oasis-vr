@@ -165,3 +165,7 @@ hr {
   @media screen and (min-width: 700px) {
     .gif-section {
       background-position: 0px 200px; } }
+
+@media screen and (max-width: 700px) {
+  .nav > li > a.navlink {
+    padding-left: 30px; } }

@@ -231,8 +231,10 @@ hr {
     }
 }
 
-//.nav>li>a.navlink {
-//    @media screen and (max-width: 700px) {
-//        padding-left: 30px;
-//    }
-//}
+.nav>li>a.navlink {
+    @media screen and (max-width: 700px) {
+        padding-left: 30px;
+    }
+}
+
+
