@@ -206,7 +206,21 @@ hr {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 $mobile-text-width: 277;
+$secondary-color: white;
+$primary-color: transparent;
 
 
 .top-section {
@@ -249,9 +263,6 @@ $mobile-text-width: 277;
 }
 
 
-$secondary-color: white;
-$primary-color: transparent;
-
 .top-section {
     background:
     linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
@@ -275,7 +286,7 @@ $primary-color: transparent;
     }
 }
 
-.top-text {
+div.top-text {
     max-width: 600px;
     margin:auto;
     @media screen and (max-width: 700px) {
