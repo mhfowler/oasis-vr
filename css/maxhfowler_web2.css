@@ -136,6 +136,7 @@ hr {
   border: none; }
 
 .footer-writeup {
+  margin: auto;
   padding-top: 60px;
   padding-left: 60px;
   padding-right: 30px;
