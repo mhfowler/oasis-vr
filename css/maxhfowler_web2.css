@@ -177,6 +177,7 @@ hr {
 .top-section {
   background: linear-gradient(135deg, transparent 30%, white 0), url("http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif");
   height: 400px;
+  padding-right: 20px;
   background-size: 100% 100%, 100% 100%; }
 
 .top-wrapper {
