@@ -152,6 +152,11 @@ hr {
   margin: auto;
   margin-top: 60px;
   text-align: left; }
+  @media screen and (max-width: 700px) {
+    .top-links {
+      width: 288px;
+      text-align: left;
+      margin-top: 140px; } }
   .top-links .top-link {
     font-size: 14px;
     color: #333; }
@@ -169,10 +174,6 @@ hr {
         margin-right: 65px; } }
   .top-links .right-link {
     margin-right: 0px; }
-  @media screen and (max-width: 700px) {
-    .top-links {
-      width: 288px;
-      text-align: left; } }
 
 .top-section {
   background: linear-gradient(135deg, transparent 30%, white 0), url("http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif");

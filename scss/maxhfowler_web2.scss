@@ -240,6 +240,11 @@ $primary-color: transparent;
     margin: auto;
     margin-top: 60px;
     text-align: left;
+    @media screen and (max-width: 700px) {
+        width: $mobile-text-width;
+        text-align: left;
+        margin-top: 140px;
+    }
     .top-link {
         font-size: 14px;
         color:#333;
@@ -262,10 +267,7 @@ $primary-color: transparent;
     .right-link {
         margin-right:0px;
     }
-    @media screen and (max-width: 700px) {
-        width: $mobile-text-width;
-        text-align: left;
-    }
+
 }
 
 
