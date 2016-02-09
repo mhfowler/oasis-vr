@@ -1,0 +1,129 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+$mobile-text-width: 288px;
+$secondary-color: white;
+$primary-color: transparent;
+
+
+.top-section {
+    height: 400px;
+    //padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    color: black;
+    @media screen and (max-width: 700px) {
+        height: 600px;
+    }
+}
+
+.top-links {
+    width: 320px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: left;
+    @media screen and (max-width: 700px) {
+        width: $mobile-text-width;
+        text-align: left;
+        margin-top: 12vh;
+    }
+    .top-link {
+        font-size: 14px;
+        color:#333;
+        &:hover {
+            cursor:pointer;
+        }
+    }
+    .left-link {
+        margin-right: 100px;
+        @media screen and (max-width: 700px) {
+            margin-right: 65px;
+        }
+    }
+    .center-link {
+        margin-right: 100px;
+        @media screen and (max-width: 700px) {
+            margin-right: 65px;
+        }
+    }
+    .right-link {
+        margin-right:0px;
+    }
+
+}
+
+
+.top-section {
+    background:
+    linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
+    url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+    @media screen and (max-width: 700px) {
+        background:
+        linear-gradient(97deg, $primary-color 34%, $secondary-color 0),
+        url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+        height: 120vh;
+    }
+    height: 400px;
+    background-size: 100% 100%, 100% 100%;
+}
+
+.top-wrapper {
+    width: 100%;
+    min-height: 450px;
+    height: 400px;
+    padding-top: 17vh;
+    @media screen and (max-width: 700px) {
+        padding-top: 0px;
+        height: 600px;
+    }
+}
+
+div.top-text {
+    max-width: 600px;
+    margin:auto;
+    @media screen and (max-width: 700px) {
+        width: $mobile-text-width;
+        text-align: left;
+    }
+}
+
+.text-section {
+    font-size: 24px;
+    max-width: 700px;
+    margin:auto;
+    @media screen and (max-width: 700px) {
+        padding-top: 200px;
+        font-size: 19px;
+    }
+    background-size: 100% 100%;
+    font-family: 'PT Serif', serif;
+    text-align:center;
+}
+
+.projects-wrapper {
+    max-width: 800px;
+}
+
+.footer-text-wrapper {
+    max-width: 600px;
+}
+.footer-writeup {
+    margin:auto;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    max-width: 800px;
+    @media screen and (max-width: 700px) {
+        padding-left: 20px;
+    }
+}
