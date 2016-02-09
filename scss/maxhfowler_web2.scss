@@ -243,7 +243,7 @@ $mobile-text-width: 277;
         margin-right:0px;
     }
     @media screen and (max-width: 700px) {
-        max-width: $mobile-text-width;
+        width: $mobile-text-width;
         text-align: left;
     }
 }
