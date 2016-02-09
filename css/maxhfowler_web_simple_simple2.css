@@ -5,7 +5,8 @@
  */
 body, html {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  background-color: #000066; }
 
 .top-section {
   height: 400px;

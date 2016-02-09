@@ -4,9 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+$body-color: #000066;
+
 body, html {
     margin: 0px;
     padding: 0px;
+    background-color: $body-color;
 }
 
 $mobile-text-width: 288px;
