@@ -224,13 +224,14 @@ $primary-color: transparent;
 
 
 .top-section {
-    height: 95vh;
+    height: 400px;
     //padding-top: 200px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100px;
     color: black;
     @media screen and (max-width: 700px) {
+        height: 600px;
         padding-top: 20vh;
     }
 }
