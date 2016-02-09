@@ -60,7 +60,8 @@ footer {
 .top-links {
   margin-top: 30px; }
   .top-links .top-link {
-    font-size: 14px; }
+    font-size: 14px;
+    color: black; }
 
 .dark-section {
   border-top: 20px solid black;
