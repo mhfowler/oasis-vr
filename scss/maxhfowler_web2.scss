@@ -92,6 +92,9 @@ footer {
     .top-link {
         font-size: 14px;
         color:#333;
+        &:hover {
+            cursor:pointer;
+        }
     }
 }
 

@@ -67,6 +67,8 @@ footer {
   .top-links .top-link {
     font-size: 14px;
     color: #333; }
+    .top-links .top-link:hover {
+      cursor: pointer; }
 
 .dark-section {
   border-top: 20px solid black;
