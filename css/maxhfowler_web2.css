@@ -48,28 +48,6 @@ footer {
     .text-section {
       padding-left: 30px; } }
 
-.top-section {
-  height: 95vh;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 30vh;
-  color: white; }
-  @media screen and (max-width: 700px) {
-    .top-section {
-      padding-top: 20vh; } }
-
-.top-links {
-  display: flex;
-  max-width: 300px;
-  margin: auto;
-  margin-top: 60px;
-  justify-content: space-between; }
-  .top-links .top-link {
-    font-size: 14px;
-    color: white; }
-    .top-links .top-link:hover {
-      cursor: pointer; }
-
 .dark-section {
   border-top: 20px solid black;
   border-bottom: 20px solid black;
@@ -185,6 +163,28 @@ hr {
 @media screen and (max-width: 700px) {
   .nav > li > a.navlink {
     padding-left: 30px; } }
+
+.top-section {
+  height: 95vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30vh;
+  color: white; }
+  @media screen and (max-width: 700px) {
+    .top-section {
+      padding-top: 20vh; } }
+
+.top-links {
+  display: flex;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 60px;
+  justify-content: space-between; }
+  .top-links .top-link {
+    font-size: 14px;
+    color: white; }
+    .top-links .top-link:hover {
+      cursor: pointer; }
 
 body {
   background: linear-gradient(45deg, transparent 30%, white 0), url("http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif");
