@@ -159,9 +159,9 @@ hr {
       cursor: pointer; }
   .top-links .left-link {
     margin-left: 30px;
-    margin-right: 60px; }
+    margin-right: 100px; }
   .top-links .center-link {
-    margin-right: 60px; }
+    margin-right: 100px; }
   .top-links .right-link {
     margin-right: 0px; }
   @media screen and (max-width: 700px) {
