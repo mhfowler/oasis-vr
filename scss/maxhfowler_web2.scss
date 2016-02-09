@@ -225,6 +225,7 @@ hr {
     margin-top: 60px;
     justify-content: space-between;
     .top-link {
+        margin-right: 20px;
         font-size: 14px;
         color:#333;
         &:hover {
@@ -232,7 +233,7 @@ hr {
         }
     }
     .contact-link {
-        margin-left:0px;
+        margin-right:0px;
     }
 }
 
