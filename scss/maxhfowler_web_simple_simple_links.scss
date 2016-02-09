@@ -59,6 +59,10 @@ $primary-color: transparent;
         float:left;
         height: 100px;
         margin-right: 40px;
+        a {
+            width: 100%;
+            display:block;
+        }
     }
 
     font-size: 14px;

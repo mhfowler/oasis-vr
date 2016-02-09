@@ -39,6 +39,9 @@ body, html {
     float: left;
     height: 100px;
     margin-right: 40px; }
+    .top-links .link-section a {
+      width: 100%;
+      display: block; }
 
 .top-section {
   background: linear-gradient(135deg, transparent 30%, white 0), lightgray;
