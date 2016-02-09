@@ -145,8 +145,7 @@ hr {
   color: black; }
   @media screen and (max-width: 700px) {
     .top-section {
-      height: 600px;
-      padding-top: 20vh; } }
+      height: 600px; } }
 
 .top-links {
   width: 320px;
