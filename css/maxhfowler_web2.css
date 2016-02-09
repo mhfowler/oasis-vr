@@ -1,0 +1,172 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+  padding-top: 70px;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */ }
+
+footer {
+  margin: 50px 0; }
+
+.author {
+  margin-top: 20px;
+  color: gray; }
+
+.btn-primary {
+  margin-top: 20px; }
+
+.navbar {
+  padding-top: 5px;
+  background: white; }
+
+.navbar-header {
+  padding-left: 15px;
+  padding-bottom: 10px; }
+  @media screen and (max-width: 700px) {
+    .navbar-header {
+      padding-bottom: 5px; } }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: blue; }
+
+.navbar-inverse {
+  background-color: white;
+  color: black;
+  border-color: blue; }
+
+.text-section {
+  font-size: 24px;
+  width: 100%;
+  max-width: 600px;
+  padding-left: 70px;
+  padding-right: 40px;
+  background-size: 100% 100%;
+  font-family: 'PT Serif', serif; }
+  @media screen and (max-width: 700px) {
+    .text-section {
+      padding-left: 30px; } }
+
+.top-section {
+  height: 95vh;
+  padding-top: 30vh; }
+  @media screen and (max-width: 700px) {
+    .top-section {
+      padding-top: 20vh; } }
+
+.dark-section {
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  background-color: #333;
+  color: #D6D6D6;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+  width: 100%; }
+  @media screen and (max-width: 700px) {
+    .dark-section {
+      padding-left: 30px; } }
+
+.project-title {
+  color: #333; }
+  .project-title:hover {
+    text-decoration: none;
+    color: #333; }
+
+a {
+  text-decoration: none; }
+
+.quick-links-header {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.quick-links-footer {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 15px; }
+  .quick-links-footer a {
+    color: white; }
+    .quick-links-footer a:hover {
+      color: white; }
+
+.quick-link {
+  margin-top: 10px;
+  color: white; }
+  .quick-link:hover {
+    color: white; }
+
+.quick-link-wrapper {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 40px; }
+
+.quick-writeup {
+  padding-left: 35px;
+  color: gray; }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #9d9d9d; }
+
+.navbar-toggle:hover .icon-bar {
+  background-color: white;
+  border-color: white; }
+
+.projects-wrapper {
+  margin-left: 0px;
+  padding: 0px; }
+
+.navbar-brand:focus, .navbar-brand:hover {
+  color: black; }
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: black; }
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+  color: black; }
+
+.project-row {
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid blue;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 5px; }
+  .project-row:hover {
+    border-color: black;
+    cursor: pointer; }
+
+hr {
+  border: none; }
+
+.footer-writeup {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  max-width: 600px; }
+  @media screen and (max-width: 700px) {
+    .footer-writeup {
+      padding-left: 20px; } }
+
+.copyright-box {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.gif-section {
+  background: url("http://41.media.tumblr.com/365d530ac93a4bdbfcf155222bd3f683/tumblr_n24lol9kaH1rs1gaeo1_1280.png");
+  background-size: cover;
+  background-position: 0px -60px;
+  height: 200px;
+  width: 100%; }
+  @media screen and (min-width: 700px) {
+    .gif-section {
+      background-position: 0px 200px; } }
+
+@media screen and (max-width: 700px) {
+  .nav > li > a.navlink {
+    padding-left: 30px; } }
