@@ -36,18 +36,6 @@ footer {
   color: black;
   border-color: blue; }
 
-.text-section {
-  font-size: 24px;
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  background-size: 100% 100%;
-  font-family: 'PT Serif', serif;
-  text-align: center; }
-  @media screen and (max-width: 700px) {
-    .text-section {
-      padding-left: 30px; } }
-
 .dark-section {
   border-top: 20px solid black;
   border-bottom: 20px solid black;
@@ -193,3 +181,14 @@ hr {
 
 .top-wrapper {
   width: 100%; }
+
+.text-section {
+  font-size: 24px;
+  max-width: 600px;
+  margin: auto;
+  background-size: 100% 100%;
+  font-family: 'PT Serif', serif;
+  text-align: center; }
+  @media screen and (max-width: 700px) {
+    .text-section {
+      padding-left: 30px; } }

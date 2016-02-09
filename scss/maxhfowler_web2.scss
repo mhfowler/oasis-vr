@@ -53,23 +53,7 @@ footer {
     border-color: blue;
 }
 
-.text-section {
-    font-size: 24px;
-    //width: calc(100% - 70px);
-    width: 100%;
-    max-width: 600px;
-    //height: calc(100vh - 240px);
-    //display:flex;
-    //align-items: center;
-    margin:auto;
-    @media screen and (max-width: 700px) {
-        padding-left:30px;
-    }
-    //background: url('/static/white_feet.jpg');
-    background-size: 100% 100%;
-    font-family: 'PT Serif', serif;
-    text-align:center;
-}
+
 
 
 
@@ -263,7 +247,6 @@ hr {
 }
 
 
-
 $secondary-color: white;
 $primary-color: transparent;
 
@@ -277,4 +260,21 @@ $primary-color: transparent;
 
 .top-wrapper {
     width: 100%;
+}
+
+.text-section {
+    font-size: 24px;
+    //width: calc(100% - 70px);
+    max-width: 600px;
+    //height: calc(100vh - 240px);
+    //display:flex;
+    //align-items: center;
+    margin:auto;
+    @media screen and (max-width: 700px) {
+        padding-left:30px;
+    }
+    //background: url('/static/white_feet.jpg');
+    background-size: 100% 100%;
+    font-family: 'PT Serif', serif;
+    text-align:center;
 }
