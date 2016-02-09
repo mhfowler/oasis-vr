@@ -61,22 +61,8 @@ $primary-color: transparent;
 
 }
 
-@keyframes pulse {
-  0% {
-      background:
-    linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
-    url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
-  }
-  100% {
-          background:
-    linear-gradient(360deg, $primary-color 30%, $secondary-color 0),
-    url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
-  }
-}
-
 
 .top-section {
-    animation: pulse 5s infinite;
     background:
     linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
     url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
