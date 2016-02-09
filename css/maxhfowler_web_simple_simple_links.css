@@ -33,12 +33,6 @@ body, html {
     color: #333; }
     .top-links .top-link:hover {
       cursor: pointer; }
-  @media screen and (max-width: 700px) {
-    .top-links .left-link {
-      margin-right: 65px; } }
-  @media screen and (max-width: 700px) {
-    .top-links .center-link {
-      margin-right: 65px; } }
   .top-links .right-link {
     margin-right: 0px; }
 
