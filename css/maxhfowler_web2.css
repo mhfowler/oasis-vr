@@ -165,7 +165,7 @@ hr {
     margin-right: 0px; }
   @media screen and (max-width: 700px) {
     .top-links {
-      width: 277;
+      max-width: 277;
       text-align: left; } }
 
 .top-section {
