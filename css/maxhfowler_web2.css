@@ -183,6 +183,9 @@ hr {
   width: 100%;
   height: 100vh; }
 
+.top-text {
+  max-width: 500px; }
+
 .text-section {
   font-size: 24px;
   max-width: 600px;
