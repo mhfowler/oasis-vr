@@ -189,7 +189,8 @@ hr {
   padding-top: 50px; }
   @media screen and (max-width: 700px) {
     .top-wrapper {
-      padding-top: 0px; } }
+      padding-top: 0px;
+      height: 95vh; } }
 
 div.top-text {
   max-width: 600px;
