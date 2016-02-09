@@ -50,12 +50,12 @@ body, html {
     margin-right: 0px; }
 
 .top-section {
-  background: linear-gradient(135deg, transparent 30%, white 0), url("/static/graymoon.jpg");
+  background: url("/static/graymoon.jpg");
   height: 400px;
   background-size: 100% 100%, 100% 100%; }
   @media screen and (max-width: 700px) {
     .top-section {
-      background: linear-gradient(97deg, transparent 34%, white 0), url("/static/graymoon.jpg");
+      background: url("/static/graymoon.jpg");
       height: 101vh; } }
 
 .top-wrapper {

@@ -75,11 +75,11 @@ $gif:'/static/graymoon.jpg';
 
 .top-section {
     background:
-    linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
+    //linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
     url($gif);
     @media screen and (max-width: 700px) {
         background:
-        linear-gradient(97deg, $primary-color 34%, $secondary-color 0),
+        //linear-gradient(97deg, $primary-color 34%, $secondary-color 0),
         url($gif);
         height: 101vh;
     }
