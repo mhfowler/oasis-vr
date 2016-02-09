@@ -19,7 +19,7 @@ body, html {
 
 .top-links {
   width: 320px;
-  margin: auto;
+  float: right;
   margin-top: 60px;
   text-align: left;
   font-size: 14px; }
