@@ -148,17 +148,21 @@ hr {
       padding-top: 20vh; } }
 
 .top-links {
-  max-width: 300px;
+  width: 100%;
   margin: auto;
   margin-top: 60px;
   text-align: left; }
   .top-links .top-link {
-    margin-right: 20px;
     font-size: 14px;
     color: #333; }
     .top-links .top-link:hover {
       cursor: pointer; }
-  .top-links .contact-link {
+  .top-links .left-link {
+    margin-left: 30px;
+    margin-right: 20px; }
+  .top-links .center-link {
+    margin-right: 20px; }
+  .top-links .right-link {
     margin-right: 0px; }
   @media screen and (max-width: 700px) {
     .top-links {

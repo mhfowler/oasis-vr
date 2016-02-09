@@ -222,25 +222,25 @@ $mobile-text-width: 277;
 }
 
 .top-links {
-    max-width: 300px;
+    width: 100%;
     margin: auto;
     margin-top: 60px;
     text-align: left;
     .top-link {
-        margin-right: 20px;
         font-size: 14px;
         color:#333;
         &:hover {
             cursor:pointer;
         }
     }
-    .portfolio-link {
-
+    .left-link {
+        margin-left: 30px;
+        margin-right: 20px;
     }
-    .resume-link {
-
+    .center-link {
+        margin-right: 20px;
     }
-    .contact-link {
+    .right-link {
         margin-right:0px;
     }
     @media screen and (max-width: 700px) {
