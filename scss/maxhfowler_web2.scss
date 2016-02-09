@@ -193,8 +193,8 @@ hr {
     background-position: 0px -60px;
     height: 200px;
     width: 100%;
-     @media screen and (min-width: 700px) {
-         background-position: 0px 200px;
+    @media screen and (min-width: 700px) {
+        background-position: 0px 200px;
     }
 }
 
@@ -240,10 +240,15 @@ $primary-color: transparent;
 
 .top-section {
     background:
-            linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
-            url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
-  height: 400px;
-  background-size: 100% 100%, 100% 100%;
+    linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
+    url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+    @media screen and (max-width: 700px) {
+        background:
+        linear-gradient(155deg, $primary-color 30%, $secondary-color 0),
+        url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+    }
+    height: 400px;
+    background-size: 100% 100%, 100% 100%;
 }
 
 .top-wrapper {
@@ -296,7 +301,7 @@ $primary-color: transparent;
     padding-right: 30px;
     padding-bottom: 100px;
     max-width: 800px;
-        @media screen and (max-width: 700px) {
-            padding-left: 20px;
+    @media screen and (max-width: 700px) {
+        padding-left: 20px;
     }
 }
