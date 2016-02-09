@@ -43,7 +43,8 @@ footer {
   padding-left: 70px;
   padding-right: 40px;
   background-size: 100% 100%;
-  font-family: 'PT Serif', serif; }
+  font-family: 'PT Serif', serif;
+  text-align: center; }
   @media screen and (max-width: 700px) {
     .text-section {
       padding-left: 30px; } }
