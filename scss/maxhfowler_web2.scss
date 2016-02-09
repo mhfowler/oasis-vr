@@ -178,17 +178,7 @@ hr {
     border:none;
 }
 
-.footer-writeup {
-    margin:auto;
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 100px;
-    max-width: 600px;
-        @media screen and (max-width: 700px) {
-            padding-left: 20px;
-    }
-}
+
 
 .copyright-box {
     margin-top: 60px;
@@ -286,4 +276,19 @@ $primary-color: transparent;
 
 .projects-wrapper {
     max-width: 800px;
+}
+
+.footer-text-wrapper {
+    max-width: 600px;
+}
+.footer-writeup {
+    margin:auto;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    width: 100%;
+        @media screen and (max-width: 700px) {
+            padding-left: 20px;
+    }
 }
