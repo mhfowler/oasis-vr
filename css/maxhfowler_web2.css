@@ -61,9 +61,8 @@ footer {
 .top-links {
   margin-top: 60px;
   display: flex;
-  width: 100%;
-  padding-right: 140px;
-  padding-left: 140px;
+  width: 300px;
+  margin: auto;
   justify-content: space-between; }
   .top-links .top-link {
     font-size: 14px;
