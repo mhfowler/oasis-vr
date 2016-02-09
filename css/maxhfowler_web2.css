@@ -50,6 +50,7 @@ footer {
 
 .top-section {
   height: 95vh;
+  padding-left: 0px;
   padding-top: 30vh; }
   @media screen and (max-width: 700px) {
     .top-section {
