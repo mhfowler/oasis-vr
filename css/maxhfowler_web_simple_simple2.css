@@ -47,12 +47,12 @@ body, html {
     margin-right: 0px; }
 
 .top-section {
-  background: linear-gradient(135deg, transparent 30%, white 0), url("http://40.media.tumblr.com/22a8a3c3e1ec67e1cb60fce9e8bf6086/tumblr_n4644rH6qF1r9q5zso1_500.jpg");
+  background: linear-gradient(135deg, transparent 30%, #000066 0), url("http://40.media.tumblr.com/22a8a3c3e1ec67e1cb60fce9e8bf6086/tumblr_n4644rH6qF1r9q5zso1_500.jpg");
   height: 400px;
   background-size: 100% 100%, 100% 100%; }
   @media screen and (max-width: 700px) {
     .top-section {
-      background: linear-gradient(97deg, transparent 34%, white 0), url("http://40.media.tumblr.com/22a8a3c3e1ec67e1cb60fce9e8bf6086/tumblr_n4644rH6qF1r9q5zso1_500.jpg");
+      background: linear-gradient(97deg, transparent 34%, #000066 0), url("http://40.media.tumblr.com/22a8a3c3e1ec67e1cb60fce9e8bf6086/tumblr_n4644rH6qF1r9q5zso1_500.jpg");
       height: 120vh; } }
 
 .top-wrapper {
