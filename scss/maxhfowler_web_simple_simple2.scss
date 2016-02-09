@@ -4,13 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-$body-color: #000066;
+//$body-color: #000066;
+$body-color: url('http://40.media.tumblr.com/22a8a3c3e1ec67e1cb60fce9e8bf6086/tumblr_n4644rH6qF1r9q5zso1_500.jpg');
 $section-color: white;
 
 body, html {
     margin: 0px;
     padding: 0px;
-    background-color: $body-color;
+    background: $body-color;
     @media screen and (max-width: 700px) {
         border: 10px solid $body-color;
     }
