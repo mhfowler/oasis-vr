@@ -176,6 +176,10 @@ hr {
 .top-text {
   max-width: 600px;
   margin: auto; }
+  @media screen and (max-width: 700px) {
+    .top-text {
+      width: 277px;
+      text-align: left; } }
 
 .text-section {
   font-size: 24px;
