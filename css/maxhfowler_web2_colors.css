@@ -141,6 +141,9 @@ hr {
   .nav > li > a.navlink {
     padding-left: 30px; } }
 
+a {
+  color: orange; }
+
 .top-section {
   height: 400px;
   padding-left: 10px;
