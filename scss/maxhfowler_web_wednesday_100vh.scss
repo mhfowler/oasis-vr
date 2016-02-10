@@ -276,13 +276,13 @@ $primary-color: transparent;
 .top-section {
     background:
     linear-gradient(135deg, $primary-color 30%, $secondary-color 0),
-    gray;
-    //url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+    //gray;
+    url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
     @media screen and (max-width: 700px) {
         background:
         linear-gradient(155deg, $primary-color 30%, $secondary-color 0),
-        gray;
-        //url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
+        //gray;
+        url('http://45.media.tumblr.com/21fcce46d50a6d0bf7d8e79f9777d332/tumblr_mqtuvbME5E1sb5osho1_500.gif');
     }
     height: 400px;
     background-size: 100% 100%, 100% 100%;
