@@ -218,7 +218,8 @@ div.top-text {
   max-width: 800px; }
 
 .footer-text-wrapper {
-  max-width: 600px; }
+  max-width: 600px;
+  margin: auto; }
 
 .footer-writeup {
   margin: auto;
