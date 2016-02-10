@@ -212,7 +212,7 @@ div.top-text {
   text-align: center; }
   @media screen and (max-width: 700px) {
     .text-section {
-      padding-top: 250px;
+      padding-top: 225px;
       font-size: 19px; } }
 
 .projects-wrapper {
