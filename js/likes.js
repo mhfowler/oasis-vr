@@ -11,7 +11,7 @@ $(document).ready(function() {
         while(new Date().getTime() < now + sleepDuration){ /* do nothing */ }
     }
 
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 3; i++) {
         var hearts = $('.test');
         $(hearts).each(function(i,e) {
             $(this).click();
