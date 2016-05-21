@@ -26,7 +26,7 @@ $(document).ready(function() {
                 }
             }
             binary_div.html(bin); },
-        500);
+        100);
 });
 
 
