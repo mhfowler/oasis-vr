@@ -16,7 +16,7 @@ $(document).ready(function() {
     }
     binary_div.html(bin);
 
-        setInterval(function(){
+    setInterval(function(){
             var bin = '10';
             for (i = 0; i < 5000; i++) {
                 if (Math.random() < 0.5) {
