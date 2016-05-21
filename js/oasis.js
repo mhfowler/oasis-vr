@@ -14,6 +14,7 @@ $(document).ready(function() {
             bin += '0'
         }
     }
+    binary_div.html(bin);
 
 });
 
