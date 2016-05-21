@@ -15,7 +15,6 @@ $(document).ready(function() {
         }
     }
     binary_div.html(bin);
-
 });
 
 
