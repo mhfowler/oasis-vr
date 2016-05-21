@@ -7,7 +7,12 @@ $(document).ready(function() {
 
     var bin = '10';
     for (i = 0; i < 5000; i++) {
-        
+        if (Math.random() < 0.5) {
+            bin += '1';
+        }
+        else {
+            bin += '0'
+        }
     }
 
 });
