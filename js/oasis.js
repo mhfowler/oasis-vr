@@ -19,10 +19,10 @@ $(document).ready(function() {
             var bin = binary_div.html();
             for (i = 0; i < 100; i++) {
                 if (Math.random() < 0.5) {
-                    bin += '1';
+                    bin = '1' + bin;
                 }
                 else {
-                    bin += '0'
+                    bin = '0' + bin;
                 }
             }
             binary_div.html(bin); },
