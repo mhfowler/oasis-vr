@@ -27,7 +27,7 @@ $(document).ready(function() {
                 }
             }
             binary_div.html(bin); },
-        3000);
+        10000);
 
 
     //setInterval(function(){
