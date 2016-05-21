@@ -15,6 +15,9 @@ $(document).ready(function() {
         }
     }
     binary_div.html(bin);
+    setInterval(function(){
+        alert("Hello"); },
+        100);
 });
 
 
