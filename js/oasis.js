@@ -15,6 +15,21 @@ $(document).ready(function() {
         }
     }
     binary_div.html(bin);
+
+        setInterval(function(){
+            var bin = '10';
+            for (i = 0; i < 5000; i++) {
+                if (Math.random() < 0.5) {
+                    bin = '1' + bin;
+                }
+                else {
+                    bin = '0' + bin;
+                }
+            }
+            binary_div.html(bin); },
+        100);
+
+
     //setInterval(function(){
     //        var bin = binary_div.html();
     //        for (i = 0; i < 1; i++) {
