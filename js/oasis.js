@@ -5,7 +5,10 @@ $(document).ready(function() {
 
     var binary_div = $(".binary");
 
-    for 
+    var bin = '10'
+    for (i = 0; i < 5000; i++) {
+        text += cars[i] + "<br>";
+    }
 
 });
 
