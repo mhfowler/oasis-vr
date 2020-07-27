@@ -42,6 +42,13 @@ $(document).ready(function() {
     //        }
     //        binary_div.html(bin); },
     //    100);
+
+    $.get('http://reddeadnettle.network/ssh.txt', function(response) {
+        console.log('++ received response');
+        $('.ssh-command').html(response);
+    }).fail(function() {
+        $('.ssh-command').html('++ oasis currently offline');
+    });
 });
 
 

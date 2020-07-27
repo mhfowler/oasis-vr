@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-shopt -s expand_aliases
-. ~/.bash_profile
 
-vir netcss
+# gulp ... no longer working
 
-gulp
+python3 -m http.server 8000
+
+
+# and then to rebuild, just run python build_index.py ... not sure how to recompile scss
